@@ -1,0 +1,28 @@
+{
+  "name": "pangu",
+  "version": "1.0.0",
+  "description": "需求 使用 pangu.js 給檔案內的中英文加入空白。",
+  "main": "src/pangu.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "commander": "2.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/SDLyu/pangu"
+  },
+  "keywords": [
+    "pangu"
+  ],
+  "author": "SDLyu <dragon90321@gmail.com>",
+  "bin": {
+    "pangu": "./bin/pangu.js"
+  },
+  "license": "BSD",
+  "readmeFilename": "readme.md",
+  "bugs": {
+    "url": "https://github.com/SDLyu/pangu/issues"
+  }
+}
